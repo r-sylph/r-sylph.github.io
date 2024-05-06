@@ -1,3 +1,5 @@
-import * as Frameworks from "./frameworks";
+import { createApp } from 'vue'
+import './style.css'
+import App from './App.vue'
 
-Frameworks.Runner.run();
+createApp(App).mount('#app')
